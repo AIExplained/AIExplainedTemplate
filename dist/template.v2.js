@@ -2116,7 +2116,7 @@ d-appendix > distill-appendix {
     <div style="width: auto; min-width: 120px; height:100%; background: #ffffff; padding: 0px 10px 0px 20px">
       <div style="height: max-content; border-radius: 4px; border: 0.5px solid #297aa3; background-color: #ffffff;  position: relative; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%);">
         <table>
-          <tr>s
+          <tr>
             <td><img src="image/icon_pointer.png" alt="Interactive Element" style="width: 32px; height: 32px; "></td>
             <td><div class="interactivebyline" style="font-size: 14px; color: #333300;">Indicates interactive elements.</div>
             </td>
