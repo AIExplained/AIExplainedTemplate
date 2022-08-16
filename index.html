@@ -17,6 +17,7 @@
 
 <head>
   <script src="dist/template.v2.js"></script>
+  <link rel="stylesheet" href="dist/ieeexplore-immersive-article.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf8">
   <link rel="stylesheet" href="chessboard/chessboard.css">
@@ -26,11 +27,11 @@
 </head>
 
 <body>
-  <button id="backToTopButton" title="Go to top" style="position: fixed !important; right: 10px; bottom: 10px;
-      display: block; z-index: 100; background-color: #ffffff; border: none">
-    <img src="image/returntoTop.png" alt="Back to Top Button" style="display: inline-block; width: 36px; height: 36px; right: 10px; bottom: 10px;">
-      <!--<span style="color: #ffffff; transform: scale(2,0.7); font-size: 32px; ">^</span>-->
+
+  <button id="backToTopButton" class="backToTopButton">
+    <i class="icon--min icon-back-to-top-arrow"></i>
   </button>
+
 
   <distill-header></distill-header>
   <d-front-matter>
@@ -82,7 +83,7 @@
 
       function scrollFunction() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          mybutton.style.display = "block";
+          mybutton.style.display = "flex";
         } else {
           mybutton.style.display = "none";
         }
